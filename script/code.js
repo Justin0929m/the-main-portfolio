@@ -45,8 +45,8 @@ experienceData.forEach((content) => {
   experienceSection.innerHTML += `
     <div class="card">
                 <div class="card-body">
+                <p class="card-title">${content.cardTitle}</p>
                     <p class="card-date">${content.cardDate}</p>
-                    <p class="card-title">${content.cardTitle}</p>
                     <p class="card-text">${content.cardText}</p>
                 </div>
             </div>`;

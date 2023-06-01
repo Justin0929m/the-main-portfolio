@@ -152,19 +152,23 @@ img {
 }
 
 .card-body {
-  height: calc(100vh / 2.5);
+  height: calc(100vh / 2.0);
 }
 
 .card-date {
-  font-size: 0.9rem;
+    padding-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: var(--fw-300);
 }
 
 .card-title {
-  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: var(--fw-900);
 }
 
 .card-text {
   font-weight: var(--fw-300);
+  font-size: 1.2rem;
 }
 
 /* Project Section */
